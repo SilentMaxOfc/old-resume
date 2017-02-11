@@ -85,11 +85,12 @@ body {
     border-top: 3px solid black;
     padding-bottom: 15%;
 }
-.principles-title {
+.page-title {
     margin: 10%;
     font-size: 4em;
     color:white;
     text-shadow:0px 7px 2px black;
+    text-transform: uppercase;
 }
 .principles-description {
     text-transform:none;
@@ -159,26 +160,27 @@ body {
     border-top: 5px solid black;
 }
 
-.speach {
+.container {
     background-color:black;
     border-radius:40px;
     padding:20px;
     margin:40px auto;
     opacity:0.85;
-    margin-top:10%;
+    margin-top:5%;
+    margin-bottom: 5%;
     width: 70%;
     border: 5px solid white;
 }
-.title {
+.form-title {
     margin: 5%;
     margin-bottom:-1%;
     font-size:2.5em;
     text-transform: uppercase;
     opacity: 1;
 }
-.speach-text {
+.text {
     text-transform:none;
-    font-size:1.2em;
+    font-size:1.4em;
     margin-bottom:7%;
     opacity: 1;
 }
@@ -225,69 +227,12 @@ fieldset {
 /* Начало 4 страницы */
 
 .page4 {
-    font-family: 'Neucha', serif;
-    color:#637bf9;
-    background:url("img/bg4.jpg")  top center;
-    border-top: 10px solid black;
-    min-height: 1000px;
-    font-size:18px;
-    line-height: 24px;
-}
-.case-study {
-    height: 100%;
-    margin-bottom:2em;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    text-align: center;
-    width: 75%;
-    text-align: left;
-    background: white;
-    opacity: 0.95;
-    box-shadow: 0 0 10px 5px white;
-    padding:20px;
-    border-radius: 20px;
-}
-.case-study-title {
-    color:#9a222e;
-    font-weight: bold;
-    font-size:4em;
-    margin-top:2em;
-    margin-bottom:1em;
-    text-transform:uppercase;
-}
-.eng-font {
     font-family: 'Bree Serif', serif;
-    color: #e8745b;
+    color:white;
+    background:url("img/bg5.jpg")  top center;
+    border-top: 5px solid black;
 }
-.case-study-text-block {
-    width: 100%;
-    display:block;
-    text-align: left;
-    font-size: 1.3em;
-}
-.block-title {  
-    font-size: 2em;
-    color: black;
-    padding-top: 2em;
-    padding-bottom: 1em;
-    display: inline-block; 
-    text-transform:uppercase;
-}
-.block {
-    width:100%;
-    display: inline-block;
-    text-align: center;
-    height: 100%;
-    vertical-align: top;
-    padding-top: 18px;
-    margin-left: 0.5em;
-} 
-.block img {
-    width: 90%;
-    box-shadow:0 0 25px 7px gray;
-    margin-bottom: 1em;
-    opacity: 1;
-}
+
+
 
 /* Конец 4 страницы */

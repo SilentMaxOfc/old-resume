@@ -245,4 +245,72 @@ fieldset {
 ul {
     padding: 0 0
 }
+
+.slide-title {
+    font-family: 'Neucha', serif;
+    font-weight: bold;
+    font-size:3em;
+    line-height: 1;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.slider-radio {
+    display: inline-block;
+    content: "";
+    width:20px;
+    height:20px;
+    background: #3a3c3b;
+    box-shadow: inset 0 0 5px 2px black;
+    cursor: pointer;
+}
+.first-slide {
+    display:none;
+    position: relative;
+    background:black;
+    border: 10px solid white;
+    border-radius: 30px;
+    margin: 3%;
+}
+.slide-img {
+    width: 100%;
+    border-radius: 20px;
+}
+.second-slide {
+    display:none;
+    position: relative;
+    background:black;
+    width: 93%;
+    border: 10px solid white;
+    border-radius: 30px;
+    margin: 3%;
+}
+.third-slide {
+    display:none;
+    position: relative;
+    background-color: bisque;
+    width: 93%;
+    border: 10px solid white;
+    border-radius: 30px;
+    margin: 3%;
+}
+
+#btn-1, #btn-2, #btn-3{
+    position: absolute;
+    opacity: 0;
+}
+#btn-1:checked ~ label[for="btn-1"],
+#btn-2:checked ~ label[for="btn-2"], 
+#btn-3:checked ~ label[for="btn-3"] {
+    background: white;
+}
+#btn-1:checked ~ .first-slide {
+    display: block;
+}
+#btn-2:checked ~ .second-slide {
+    display: block;
+}
+#btn-3:checked ~ .third-slide {
+    display: block;
+}
+
 /* Конец 4 страницы */

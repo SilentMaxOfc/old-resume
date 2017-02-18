@@ -151,39 +151,13 @@ body {
 }
 
 /* Конец второй страницы */
-/* Начало третьей страницы */
+/* Начало третьей страницы 
 .page3 {
     font-family: 'Bree Serif', serif;
     font-weight:bold;
     color:white;
     background:url("img/bg5.jpg")  top   center;
     border-top: 5px solid black;
-}
-
-.container {
-    background-color:rgba(0,0,0,0.85);
-    border-radius:40px;
-    padding:20px;
-    margin:40px auto;
-    margin-top:5%;
-    margin-bottom: 5%;
-    width: 70%;
-    border: 5px solid white;
-}
-.form-title {
-    margin: 5%;
-    margin-bottom:-1%;
-    font-size:2.5em;
-    text-transform: uppercase;
-    opacity: 1;
-}
-.text {
-    text-transform:none;
-    font-size:1.4em;
-    margin-bottom:7%;
-    opacity: 1;
-    text-align: left;
-    margin-left: 20%;
 }
 .ready {
     font-size:1.7em;
@@ -225,6 +199,7 @@ fieldset {
     width: 74%;
     margin-top: 2%;
 }
+*/
 
 /* Начало 4 страницы */
 
@@ -263,6 +238,10 @@ ul {
     box-shadow: inset 0 0 5px 2px black;
     cursor: pointer;
 }
+.slide-img {
+    width: 100%;
+    border-radius: 20px;
+}
 .first-slide {
     display:none;
     position: relative;
@@ -270,10 +249,6 @@ ul {
     border: 10px solid white;
     border-radius: 30px;
     margin: 3%;
-}
-.slide-img {
-    width: 100%;
-    border-radius: 20px;
 }
 .second-slide {
     display:none;
@@ -312,5 +287,29 @@ ul {
 #btn-3:checked ~ .third-slide {
     display: block;
 }
-
+.container {
+    background-color:rgba(0,0,0,0.85);
+    border-radius:40px;
+    padding:20px;
+    margin:40px auto;
+    margin-top:5%;
+    margin-bottom: 5%;
+    width: 70%;
+    border: 5px solid white;
+}
+.form-title {
+    margin: 5%;
+    margin-bottom:-1%;
+    font-size:2.5em;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.text {
+    text-transform:none;
+    font-size:1.4em;
+    margin-bottom:7%;
+    opacity: 1;
+    text-align: left;
+    margin-left: 20%;
+}
 /* Конец 4 страницы */

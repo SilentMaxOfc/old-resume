@@ -242,6 +242,9 @@ ul {
     width: 100%;
     border-radius: 20px;
 }
+.img1 {
+    max-height: 645px;
+}
 .first-slide {
     display:none;
     position: relative;
@@ -249,6 +252,7 @@ ul {
     border: 10px solid white;
     border-radius: 30px;
     margin: 3%;
+    width: 93%;
 }
 .second-slide {
     display:none;
